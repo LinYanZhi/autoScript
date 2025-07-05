@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <trees>
+     <tree path="/auto_script_001/utils_excel.py" title="读取Excel文件"/>
+     <tree path="/auto_script_001/utils_mouse.py" title="鼠标控制"/>
+     <tree path="/auto_script_001/utils_keyboard.py" title="键盘控制"/>
+     <tree path="/auto_script_001/utils_ui.py" title="UI控制"/>
+     <tree path="/auto_script_001/R.py" title="结果"/>
+ </trees>
