@@ -5,4 +5,5 @@
      <tree path="/auto_script_001/utils_keyboard.py" title="键盘控制"/>
      <tree path="/auto_script_001/utils_ui.py" title="UI控制"/>
      <tree path="/auto_script_001/R.py" title="结果"/>
+     <tree path="/auto_script_001/utils_keyboard.py.json" title="按键映射"/>
  </trees>

@@ -1,0 +1,99 @@
+{
+  "key_constants": {
+    "system_keys": [
+      {"name": "Key.cmd", "description": "Windows键/Command键 (打开开始菜单/Spotlight)"},
+      {"name": "Key.cmd_r", "description": "右侧Windows键"},
+      {"name": "Key.menu", "description": "菜单键/Application键"}
+    ],
+
+    "modifier_keys": [
+      {"name": "Key.ctrl", "description": "左侧Ctrl键"},
+      {"name": "Key.ctrl_r", "description": "右侧Ctrl键"},
+      {"name": "Key.alt", "description": "左侧Alt键"},
+      {"name": "Key.alt_r", "description": "右侧Alt键 (AltGr)"},
+      {"name": "Key.shift", "description": "左侧Shift键"},
+      {"name": "Key.shift_r", "description": "右侧Shift键"}
+    ],
+
+    "lock_keys": [
+      {"name": "Key.caps_lock", "description": "大写锁定键"},
+      {"name": "Key.num_lock", "description": "数字键盘锁定键"},
+      {"name": "Key.scroll_lock", "description": "滚动锁定键"}
+    ],
+
+    "navigation_keys": [
+      {"name": "Key.up", "description": "上箭头键"},
+      {"name": "Key.down", "description": "下箭头键"},
+      {"name": "Key.left", "description": "左箭头键"},
+      {"name": "Key.right", "description": "右箭头键"},
+      {"name": "Key.page_up", "description": "Page Up键"},
+      {"name": "Key.page_down", "description": "Page Down键"},
+      {"name": "Key.home", "description": "Home键"},
+      {"name": "Key.end", "description": "End键"}
+    ],
+
+    "editing_keys": [
+      {"name": "Key.insert", "description": "Insert键"},
+      {"name": "Key.delete", "description": "Delete键"},
+      {"name": "Key.backspace", "description": "Backspace键"},
+      {"name": "Key.enter", "description": "主Enter键"},
+      {"name": "Key.tab", "description": "Tab键"},
+      {"name": "Key.space", "description": "空格键"}
+    ],
+
+    "function_keys": [
+      {"name": "Key.esc", "description": "Escape键"},
+      {"name": "Key.f1", "description": "F1功能键"},
+      {"name": "Key.f2", "description": "F2功能键"},
+      {"name": "Key.f3", "description": "F3功能键"},
+      {"name": "Key.f4", "description": "F4功能键"},
+      {"name": "Key.f5", "description": "F5功能键"},
+      {"name": "Key.f6", "description": "F6功能键"},
+      {"name": "Key.f7", "description": "F7功能键"},
+      {"name": "Key.f8", "description": "F8功能键"},
+      {"name": "Key.f9", "description": "F9功能键"},
+      {"name": "Key.f10", "description": "F10功能键"},
+      {"name": "Key.f11", "description": "F11功能键"},
+      {"name": "Key.f12", "description": "F12功能键"},
+      {"name": "Key.f13", "description": "F13功能键"},
+      {"name": "Key.f14", "description": "F14功能键"},
+      {"name": "Key.f15", "description": "F15功能键"},
+      {"name": "Key.f16", "description": "F16功能键"},
+      {"name": "Key.f17", "description": "F17功能键"},
+      {"name": "Key.f18", "description": "F18功能键"},
+      {"name": "Key.f19", "description": "F19功能键"},
+      {"name": "Key.f20", "description": "F20功能键"}
+    ],
+
+    "numpad_keys": [
+      {"name": "Key.num0", "description": "数字键盘的0"},
+      {"name": "Key.num1", "description": "数字键盘的1"},
+      {"name": "Key.num2", "description": "数字键盘的2"},
+      {"name": "Key.num3", "description": "数字键盘的3"},
+      {"name": "Key.num4", "description": "数字键盘的4"},
+      {"name": "Key.num5", "description": "数字键盘的5"},
+      {"name": "Key.num6", "description": "数字键盘的6"},
+      {"name": "Key.num7", "description": "数字键盘的7"},
+      {"name": "Key.num8", "description": "数字键盘的8"},
+      {"name": "Key.num9", "description": "数字键盘的9"},
+      {"name": "Key.num_multiply", "description": "数字键盘的 *"},
+      {"name": "Key.num_add", "description": "数字键盘的 +"},
+      {"name": "Key.num_separator", "description": "数字键盘的 , (区域设置相关)"},
+      {"name": "Key.num_subtract", "description": "数字键盘的 -"},
+      {"name": "Key.num_decimal", "description": "数字键盘的 ."},
+      {"name": "Key.num_divide", "description": "数字键盘的 /"},
+      {"name": "Key.num_enter", "description": "数字键盘的Enter键"}
+    ],
+
+    "media_keys": [
+      {"name": "Key.media_next", "description": "下一曲"},
+      {"name": "Key.media_previous", "description": "上一曲"},
+      {"name": "Key.media_play_pause", "description": "播放/暂停"},
+      {"name": "Key.media_volume_mute", "description": "静音"},
+      {"name": "Key.media_volume_up", "description": "音量加"},
+      {"name": "Key.media_volume_down", "description": "音量减"}
+    ]
+  },
+
+  "note": "所有键常量均来自pynput.keyboard.Key类，使用时需要先导入：from pynput.keyboard import Key"
+}
